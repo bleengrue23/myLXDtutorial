@@ -14,17 +14,13 @@ You will need an AWS account (which is free to sign up for).  Additionally, the 
 
 5. If "t2.micro" is not already selected as the instance type, select if from the Instance type pulldown menu. 
 
-You do not need to select a key pair if you have session manager enabled. 
-
-
 <img src="Images/image1.png" />
 
-
-6. Leave the remaining options at the default settings and select the "Launch Instance" button at the bottom.
+You do not need to select a key pair if you have session manager enabled. 6. Leave the remaining options at the default settings and select the "Launch Instance" button at the bottom.
 
 7. If you are not automatically returned to the Instances page, select "Instances" from the left hand navigation menu. You should see you instance now displayed in the instances list. Select the check mark next to it, and then select the "Connect" button at the top console.
 
-Images/image2.png
+<img src="Images/image2.png" />
 
 8. Select "connect" again, and you should have a new browser window open, displaying the command line of your new Ubuntu instance.
 
@@ -52,7 +48,7 @@ lxc list
 
 curl -s --unix-socket /var/snap/lxd/common/lxd/unix.socket -X POST -d '{"name": "myContainer", "source": {"type": "image", "protocol": "simplestreams", "server": "https://cloud-images.ubuntu.com/daily", "alias": "22.04"}}' a/1.0/instances | jq .
 
-Images/image3.png
+<img src="Images/image3.png />
 
 14. Enter the following into the command prompt to see if your container is now successfully running
 
@@ -60,7 +56,7 @@ lxc list
 
 You should see something like the following returned within shell
 
-Images/image4.png
+<img src="Images/image4.png />
 
 As you can see, the container we just created is not running.  To start this container we simply have to use REST API to update the state property of the "myContainer" object.
 
@@ -74,7 +70,7 @@ lxc list
 
 You should see your container now displayed with a running status (and an IP address assignment).
 
-Images/image5.png
+<img src="Images/image5.png" />
 
 You can check out the LXD REST API specification directly at [this link.](https://documentation.ubuntu.com/lxd/en/latest/api/). 
 

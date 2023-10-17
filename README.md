@@ -16,7 +16,11 @@ You will need an AWS account (which is free to sign up for).  Additionally, the 
 
 You do not need to select a key pair if you have session manager enabled. 
 
-<img src="Images/image1.png" width="700"  />
+<details><summary>Engage an AWS Service</summary>
+<p>
+<img src="Images/image1.png" width="700" />
+</p>
+</details>
 
 6. Leave the remaining options at the default settings and select the "Launch Instance" button at the bottom.
 

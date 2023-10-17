@@ -24,11 +24,8 @@ You do not need to select a key pair if you have session manager enabled. 6. Lea
 
 8. Select "connect" again, and you should have a new browser window open, displaying the command line of your new Ubuntu instance.
 
-9. Elevate your user privileges by entering
-
+9. Elevate your user privileges by entering CLI
 ```sudo su```
-
-into the command line and selecting 'enter'.
 
 10. Like most REST APIs, the LXD REST API responses to the http commands we will be using return data in JSON. To help understand these response elements install the jq JSON parser with following command:
 

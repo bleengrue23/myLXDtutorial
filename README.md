@@ -43,7 +43,7 @@ Use the default option set with the exception of LXD server network availability
 
 ```lxc list ```
 
-13.  To create a container through the REST API, we are going to use curl and the POST command to create and send it to the local unix.socket. Enter the following at the command prompt
+13.  To create a container through the REST API, we are going to use curl and the POST command to create and send it through the local unix.socket to the LXD server. Enter the following at the command prompt
 
 ```curl -s --unix-socket /var/snap/lxd/common/lxd/unix.socket -X POST -d '{"name": "myContainer", "source": {"type": "image", "protocol": "simplestreams", "server": "https://cloud-images.ubuntu.com/daily", "alias": "22.04"}}' a/1.0/instances | jq .```
 

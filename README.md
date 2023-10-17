@@ -48,7 +48,7 @@ Use the default option set with the exception of LXD server network availability
 
 ```curl -s --unix-socket /var/snap/lxd/common/lxd/unix.socket -X POST -d '{"name": "myContainer", "source": {"type": "image", "protocol": "simplestreams", "server": "https://cloud-images.ubuntu.com/daily", "alias": "22.04"}}' a/1.0/instances | jq .```
 
-<img src="Images/image3.png />
+<img src="Images/image3.png" />
 
 14. Enter the following into the command prompt to see if your container is now successfully running
 
@@ -56,7 +56,7 @@ Use the default option set with the exception of LXD server network availability
 
 You should see something like the following returned within shell
 
-<img src="Images/image4.png />
+<img src="Images/image4.png" />
 
 As you can see, the container we just created is not running.  To start this container we simply have to use the REST API to update the state property of the "myContainer" object.
 

@@ -2,7 +2,7 @@ Tutorial: Managing containers with the LXD REST API
 
 This tutorial is for people wanting to better understand how REST APIs work through HTTP commands.  We will be using simple HTTP requests to create and manage containers on an Ubuntu instance running in AWS on EC2. All of the actions and steps below can be performed within your web browser and without incurring any charges in your AWS account (the resources created are all free-tier eligible).  
 
-You will need an AWS account (which is free to sign up for).  Note tha the steps required for accessing an EC2 instance command line from within a browser window are not covered in this brief tutorial. See this link [to set up Session Manager](https://https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-getting-started.html)
+You will need an AWS account (which is free to sign up for).  Note that the steps required for accessing an EC2 instance command line from within a browser window are not covered in this brief tutorial. See this link [to set up Session Manager](https://https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-getting-started.html)
 
 1. In the AWS console, type "EC2" into the search bar at the upper left.  When the EC2 service icon appears, select it.
 

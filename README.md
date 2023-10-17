@@ -20,7 +20,7 @@ You do not need to select a key pair if you have session manager enabled.
 
 6. Leave the remaining options at the default settings and select the "Launch Instance" button at the bottom.
 
-7. If you are not automatically returned to the Instances page, select "Instances" from the left hand navigation menu. You should see you instance now displayed in the instances list. Select the check mark next to it, and then select the "Connect" button at the top console.
+7. If you are not automatically returned to the Instances page, select "Instances" from the left hand navigation menu. You should see your instance now displayed in the instances list. Select the check mark next to it, and then select the "Connect" button at the top of the console.
 
 <img src="Images/image2.png" />
 

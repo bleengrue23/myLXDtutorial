@@ -76,4 +76,4 @@ Images/image5.png
 
 You can check out the LXD REST API specification directly at [this link.](https://documentation.ubuntu.com/lxd/en/latest/api/). 
 
-It is left to you to experiment with curl and further API commands to manage you containers. 
+It is left to you to experiment with curl and further LXD REST API commands to manage you containers. 

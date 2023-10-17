@@ -1,4 +1,4 @@
-#Tutorial: Managing containers with the LXD REST API
+Tutorial: Managing containers with the LXD REST API
 
 This tutorial is for people wanting to better understand how REST APIs work through HTTP commands.  We will be using simple HTTP requests to create and manage containers on an Ubuntu instance running in AWS on EC2. All of the actions and steps below can be performed within your web browser and without incurring any charges in your AWS account (the resources created are all free-tier eligible).  
 
